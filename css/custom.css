@@ -90,7 +90,9 @@ button {
 #feature-last {
     background: #00FFAD;
 }
-
+#separacion{
+    background: #121a2e;
+}
 /********** price table **********/
 #price-table {
     padding-top: 4rem !important;
