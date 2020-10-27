@@ -17,6 +17,7 @@
     <link rel="stylesheet" href="css/aos.css">
 </head>
 
+<!--comentario de prueba-->
 <body>
     <!-- banner -->
     <div class="jumbotron jumbotron-fluid" id="banner" style="background-image: url(img/banner-bk.jpg);">
@@ -35,16 +36,27 @@
             	Una nueva forma<br>
             	de trabajar fuera de tu espacio
             </h1>
-            <p data-aos="fade" data-aos-easing="linear" data-aos-duration="1000" data-aos-once="true" class="lead text-white my-4">
-                Offi-rent te ofrece las mejores empresas de alquiler de oficinas
-                <br> Podras alquilar tus oficinas y tener mas clientes.
-            </p>
-            <a href="#contact" data-aos="fade" data-aos-easing="linear" data-aos-duration="1000" data-aos-once="true" class="btn my-4 font-weight-bold atlas-cta cta-green">Empecemos!</a>
+            <div class="row">
+                <div class="col-12 col-sm-6 col-md-6 col-lg-6 center">
+                    <p data-aos="fade" data-aos-easing="linear" data-aos-duration="1000" data-aos-once="true" class="lead text-white my-4">
+                        Offi-rent te ofrece las mejores empresas de alquiler de oficinas
+                    </p>
+                    <img id= "usuarios" src="img\usuraios.png" > </img>
+                    <a href="#offi-user" data-aos="fade" data-aos-easing="linear" data-aos-duration="1000" data-aos-once="true" class="btn my-4 font-weight-bold atlas-cta cta-green">Mas información</a>
+                </div>
+                <div class="col-12 col-sm-6 col-md-6 col-lg-6  center">
+                    <p data-aos="fade" data-aos-easing="linear" data-aos-duration="1000" data-aos-once="true" class="lead text-white my-4">
+                        Podras alquilar tus oficinas y tener mas clientes.
+                    </p>
+                    <img id= "usuarios" src="img\oficinas.png" > </img>
+                    <a href="#feature-last" data-aos="fade" data-aos-easing="linear" data-aos-duration="1000" data-aos-once="true" class="btn my-4 font-weight-bold atlas-cta cta-green">Mas información</a>
+                </div>
+            </div>
         </div>
     </div>
     
     <!-- three-blcok -->
-    <div class="container my-5 py-2">
+    <div class="container my-5 py-2" id="offi-user">
         <h2 class="text-center font-weight-bold my-5">Simple y sencillo, no pierdas tiempo</h2>
         <div class="row">
             <div data-aos="fade-up" data-aos-delay="0" data-aos-duration="1000" data-aos-once="true" class="col-md-4 text-center">
@@ -64,18 +76,19 @@
             </div>
         </div>
     </div>
-    <div class="Barra de sepacion" id="separacion">
-        <br><br>
-    </div>
     <!-- feature (skew background) -->
     <div class="jumbotron jumbotron-fluid feature" id="feature-first">
         <div class="container my-5">
             <div class="row justify-content-between text-center text-md-left">
                 <div data-aos="fade-right" data-aos-duration="1000" data-aos-once="true" class="col-md-6">
-                    <h2 class="font-weight-bold">Filtros variados</h2>
-                    <p class="my-4">Usa los filtros de busqueda segun ubicacion, tamaño,
-                        <br> precio, etc.</p>
-                    <a href="#" class="btn my-4 font-weight-bold atlas-cta cta-blue">Aprender mas</a>
+                    <h2 class="font-weight-bold">Encuentra la oficina perfecta para ti</h2>
+                    <ul>
+                    <li>Encuentra oficinas cercanas a tu ubicación. </li>
+                    <li>Obten descuentos especiales para ti. </li>
+                    <li>vista de reseñas y recomendaciones sobre las oficinas </li>
+                    <li>Información y/o seguimiento del estado de su reserva.</li>
+                    <li>Filtra oficinas por: recursos, precio, ubicación, etc. </li>
+                    </ul>
                 </div>
                 <div data-aos="fade-left" data-aos-duration="1000" data-aos-once="true" class="col-md-6 align-self-center">
                     <img src="img/oficina.jpg" alt="Take a look inside" class="mx-auto d-block">
@@ -83,26 +96,27 @@
             </div>
         </div>
     </div>
+    <div class="Barra de sepacion" id="separacion">
+        <br><br>
+    </div>
     <!-- feature (green background) -->
     <div class="jumbotron jumbotron-fluid feature" id="feature-last">
         <div class="container">
             <div class="row justify-content-between text-center text-md-left">
                 <div data-aos="fade-left" data-aos-duration="1000" data-aos-once="true" class="col-md-6 flex-md-last">
-                    <h2 class="font-weight-bold">Trabaja de manera comoda</h2>
-                    <p class="my-4">
-                        Encuentra oficinas modernas con implementos a tu preferencia.
-                        <br> Tus reuniones y presentaciones tendran la calidad que te mereces
-                    </p>
-                    <a href="#" class="btn my-4 font-weight-bold atlas-cta cta-blue">Aprender mas</a>
+                    <h2 class="font-weight-bold">Agrega tu oficina en nuestra platarforma</h2>
+                    <ul>
+                    <li>Incrementa tus ventas. </li>
+                    <li>Obten más clientes. </li>
+                    <li>Facil contacto con el cliente </li>
+                    <li>Se la oficina lider de tu dsitrito </li>
+                    </ul>
                 </div>
                 <div data-aos="fade-right" data-aos-duration="1000" data-aos-once="true" class="col-md-6 align-self-center flex-md-first">
                     <img src="img/acuerdos.jpg" alt="Safe and reliable" class="mx-auto d-block">
                 </div>
             </div>
         </div>
-    </div>
-    <div class="Barra de sepacion" id="separacion">
-        <br><br>
     </div>
     <!-- price table -->
     <div class="container my-5 py-2" id="price-table">
@@ -140,63 +154,7 @@
     <div class="Barra de sepacion" id="separacion">
         <br><br>
     </div>
-    <div class="container my-5 py-2" id="price-table">
-        <h2 class="text-center font-weight-bold d-block mb-3">Nosotros</h2>
-        <div class="row">
-            <div data-aos="fade-up" data-aos-duration="1000" data-aos-once="true" class="col-md-4 text-center py-4 mt-5 rounded" id="price-table__premium">
-                <h4 class="my-4">Rodrigo Molero</h4>
-                <img src="img/RodrigoMolero.jpeg"  class="mx-auto" width="300" height="350">
-                <ul class="list-unstyled">
-                    <li></li>
-                </ul>
-                <!-- <a href="#" class="btn my-4 font-weight-bold atlas-cta cta-ghost">Get Free</a> -->
-            </div>
-            
-            <div data-aos="fade-up" data-aos-duration="1000" data-aos-once="true" class="col-md-4 text-center py-4 mt-5 rounded" id="price-table__premium">
-                <br><br><br>
-                <h4 class="my-4">S.O.S Ideas</h4>
-                <p class="font-weight-bold"><span class="display-2 font-weight-bold">Equipo de desarrollo</span></p>
-                <ul class="list-unstyled">
-                    <li></li>
-                    
-                </ul>
-                <!-- <a href="#" class="btn my-4 font-weight-bold atlas-cta cta-green">Get Free</a> -->
-            </div>
-            <div data-aos="fade-up" data-aos-duration="1000" data-aos-once="true" class="col-md-4 text-center py-4 mt-5 rounded" id="price-table__premium">
-                <h4 class="my-4">Oscar Cabrera</h4>
-                <img src="img/OscarCabrera.jpeg" class="mx-auto" width="300" height="350">
-                <ul class="list-unstyled">
-                    <li></li>
-                    
-                </ul>
-                <!-- <a href="#" class="btn my-4 font-weight-bold atlas-cta cta-ghost">Get Free</a> -->
-            </div>
-            <div data-aos="fade-up" data-aos-duration="1000" data-aos-once="true" class="col-md-4 text-center py-4 mt-5 rounded" id="price-table__premium">
-                <h4 class="my-4">Rodrigo Raymundo</h4>
-                <img src="img/RodrigoRaymundo.jpeg" class="mx-auto" width="300" height="350">
-                <ul class="list-unstyled">
-                    <li></li>
-                </ul>
-                <!-- <a href="#" class="btn my-4 font-weight-bold atlas-cta cta-green">Get Free</a> -->
-            </div>
-            <div data-aos="fade-up" data-aos-duration="1000" data-aos-once="true" class="col-md-4 text-center py-4 mt-5 rounded" id="price-table__premium">
-                <h4 class="my-4">Ernesto Valdivia</h4>
-                <img src="img/ErnestoValdivia.PNG" class="mx-auto" width="300" height="350">
-                <ul class="list-unstyled">
-                    <li></li> 
-                </ul>
-                <!-- <a href="#" class="btn my-4 font-weight-bold atlas-cta cta-ghost">Get Free</a> -->
-            </div>
-            <div data-aos="fade-up" data-aos-duration="1000" data-aos-once="true" class="col-md-4 text-center py-4 mt-5 rounded" id="price-table__premium">
-                <h4 class="my-4">Marcelo Carbonel</h4>
-                <img src="img/MarceloCarbonel.jpg" class="mx-auto" width="300" height="350">
-                <ul class="list-unstyled">
-                    <li></li>
-                </ul>
-                <!-- <a href="#" class="btn my-4 font-weight-bold atlas-cta cta-green">Get Free</a> -->
-            </div>
-        </div>
-    </div>
+
     <!-- client -->
     <div class="jumbotron jumbotron-fluid">
         <div class="container">
@@ -222,6 +180,122 @@
             </div>
         </div>
     </div>
+
+        <div class="Barra de sepacion" id="separacion">
+        <br><br>
+    </div>
+    <!-- ***** Team Area Start ***** -->
+    <section id = "nosotros" class="section team-area team-style-two overflow-hidden ptb_100">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-12 col-md-10 col-lg-6">
+                        <!-- Section Heading -->
+                        <div class="section-heading text-center">
+                            <h2 class="text-capitalize">Equipo de desarrollo</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-1 col-lg-1">
+                    </div>
+
+                    <div class="col-12 col-sm-6 col-md-2 col-lg-2">
+                        <!-- Single Team -->
+                        <div class="single-team text-center radius-100 overflow-hidden m-2 m-lg-0">
+                            <!-- Team Thumb -->
+                            <div class="team-thumb radius-100 d-inline-block position-relative overflow-hidden">
+                                <img src="img\Marcelo.jpeg" alt="">
+                                <!-- Team Overlay -->
+                                <div class="team-overlay radius-100">
+                                    <h4 class="team-name text-white">Flavio Savedra</h4>
+                                    <!-- Team Icons -->
+                                    <div class="team-icons">
+                                        <a class="p-2" href="#"><i class="fab fa-twitter"></i></a>
+                                        <a class="p-2" href="#"><i class="fab fa-linkedin-in"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-2 col-lg-2">
+                        <!-- Single Team -->
+                        <div class="single-team text-center radius-100 overflow-hidden m-2 m-lg-0">
+                            <!-- Team Thumb -->
+                            <div class="team-thumb radius-100 d-inline-block position-relative overflow-hidden">
+                                <img src="img\Denilson.jpeg" alt="">
+                                <!-- Team Overlay -->
+                                <div class="team-overlay radius-100">
+                                    <h4 class="team-name text-white">Cledmir Tejada</h4>
+                                    <!-- Team Icons -->
+                                    <div class="team-icons">
+                                        <a class="p-2" href="#"><i class="fab fa-twitter"></i></a>
+                                        <a class="p-2" href="#"><i class="fab fa-linkedin-in"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-2 col-lg-2">
+                        <!-- Single Team -->
+                        <div class="single-team text-center radius-100 overflow-hidden m-2 m-lg-0">
+                            <!-- Team Thumb -->
+                            <div class="team-thumb radius-100 d-inline-block position-relative overflow-hidden">
+                                <img src="img\Rodrigo.jpeg" alt="">
+                                <!-- Team Overlay -->
+                                <div class="team-overlay radius-100">
+                                    <h4 class="team-name text-white">Rodrigo Molero</h4>
+                                    <!-- Team Icons -->
+                                    <div class="team-icons">
+                                        <a class="p-2" href="#"><i class="fab fa-twitter"></i></a>
+                                        <a class="p-2" href="#"><i class="fab fa-linkedin-in"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-2 col-lg-2">
+                        <!-- Single Team -->
+                        <div class="single-team text-center radius-100 overflow-hidden m-2 m-lg-0">
+                            <!-- Team Thumb -->
+                            <div class="team-thumb radius-100 d-inline-block position-relative overflow-hidden">
+                                <img src="img\Oscar.jpeg" alt="">
+                                <!-- Team Overlay -->
+                                <div class="team-overlay radius-100">
+                                    <h4 class="team-name text-white">Oscar Cabrera</h4>
+                                    <!-- Team Icons -->
+                                    <div class="team-icons">
+                                        <a class="p-2" href="#"><i class="fab fa-twitter"></i></a>
+                                        <a class="p-2" href="#"><i class="fab fa-linkedin-in"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-2 col-lg-2">
+                        <!-- Single Team -->
+                        <div class="single-team text-center radius-100 overflow-hidden m-2 m-lg-0">
+                            <!-- Team Thumb -->
+                            <div class="team-thumb radius-100 d-inline-block position-relative overflow-hidden">
+                                <img src="img\Ernesto.jpeg" alt="">
+                                <!-- Team Overlay -->
+                                <div class="team-overlay radius-100">
+                                    <h4 class="team-name text-white">Ernesto Valdivia</h4>
+                                    <!-- Team Icons -->
+                                    <div class="team-icons">
+                                        <a class="p-2" href="#"><i class="fab fa-twitter"></i></a>
+                                        <a class="p-2" href="#"><i class="fab fa-linkedin-in"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-1 col-lg-1">
+                    </div>
+                </div>
+            </div>
+    </section>
+    <!-- ***** Team Area End ***** -->
+
     <!-- contact -->
     <div class="jumbotron jumbotron-fluid" id="contact" style="background-image: url(img/contact-bk.jpg);">
         <div class="container my-5">
