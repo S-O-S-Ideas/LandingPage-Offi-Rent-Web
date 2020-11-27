@@ -2,6 +2,11 @@
     text-align: center;
 }
 
+.video{
+    margin-left: auto;
+    margin-right: auto;
+}
+
 #usuarios {
     height: 25%;
     margin-left: auto;
